@@ -1,0 +1,463 @@
+/* it creates the cards and animations */
+.img- {
+  margin: 3%;
+  margin-right: 6%;
+    height: auto;
+    background-color: rgb(158, 156, 156);
+    animation-name: animate-card;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 3%;
+}
+
+/* the style for the closing icon on the cv page */
+.close {
+  position: absolute;
+  z-index: 5;
+  left: 0%;
+}
+
+
+#profile-pic {
+  width: 63%;
+  height: 260px;
+  border-radius: 60px;
+  margin-left: 19%;
+}
+
+/*  */
+.clickme {
+  position: relative;
+  background-image: linear-gradient(to right, red , rgba(69, 69, 76, 0.671));
+  max-width: 75%;
+  padding: 2%;
+  height: 65px;
+  background-color: blue;
+  border-radius: 25px;
+}
+
+.clickNow {
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgb(190, 182, 182);
+  color: linear-gradient(to right, red , rgba(69, 69, 76, 0.671));;
+  border: 1px black solid;
+  padding-left: 15%;
+  padding-top: 5%;
+  height: 100%;
+}
+
+/* Read more button text styles */
+.read-more {
+  background: linear-gradient(red, rgba(69, 69, 76, 0.671));
+  position: absolute;
+  top: 19%;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* cv display styles */
+.cv {
+  display: none;
+  margin: 2%;
+  margin-right: 2%;
+  position: fixed;
+  z-index: 2;
+  top: 5%;
+  bottom: 10%;
+  background-color: rgb(114, 109, 109);
+  height: 590px;
+  width: 100%;
+}
+
+
+@keyframes animate-card {
+  0%{box-shadow: 10px 10px 8px #FFCC00;}
+  50%{box-shadow: 10px 10px 8px #000084;}
+  100%{box-shadow: 10px 10px 8px #FF2400;}
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 19px;
+    border: none;
+    height: 39px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    height: 25px;
+    position: absolute;
+    display: inline-block;
+    top: 2%;
+    right: 5%;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0%;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  .details {
+    padding: 9%;
+    font-size: large;
+    height: 28%;
+  }
+
+  .about {
+    margin-top: 8%;
+  }
+
+  .top {
+    font-size: 200%;
+    font-weight: 900;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .down {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    margin-bottom: 2%;
+    background-color: grey;
+  }
+
+  .holder {
+    display: block;
+    padding-top: 5%;
+    font-size: larger;
+    font-weight: 900;
+  }
+
+  .connect {
+    color: rgb(65, 62, 62);
+    padding: 5%;
+    margin: 2%;
+  }
+
+  .connect, p {
+    font-size: large;
+  }
+
+  .intro {
+    font-size: larger;
+    text-align: center;
+  }
+
+  input {
+    border: 1px solid black;
+    width: 85%;
+    height: 28px;
+    border-radius: 4px;
+  }
+
+  i {
+    width: 20px;
+    height: 50px;
+    color: black;
+  }
+
+  li {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    background-color: rgb(4, 4, 88);
+    padding: 6%;
+    left: 0%;
+    border-radius: 5%;
+    margin: 3%;
+    margin-left: 0%;
+  }
+
+  ul {
+    left: 0%;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    margin: 2%;
+    padding-bottom: 2%;
+  }
+
+  .dark {
+    color: white;
+    background-color: black;
+  }
+
+  #logo {
+    width: 100%;
+    height: 500px;
+  }
+
+  #intro {
+    background-image: url('RC.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .tip {
+    height: auto;
+  }
+
+  #mail {
+    font-style: italic;
+    font-size:small;
+  }
+
+  .down, a {
+    padding-right: 8%;
+    padding-left: 8%; 
+    padding-top: 3%;
+  }
+
+  .project-pic {
+    height: 250px;
+    width: 100%;
+  }
+
+#back1 {
+  margin: 1%;
+  background-image: url('back1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#back2 {
+  margin: 1%;
+  background-image: url('back2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#back3 {
+  margin: 2%;
+  background-image: url('back3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#home {
+  position: fixed;
+  right: 9%;
+  bottom: 14%;
+  z-index: 3;
+}
+
+.tab_nav {
+  display: none;
+}
+
+.tab_nav a {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes animate-title {
+  0%{color : rgb(112, 112, 245)}
+  25%{color:rgba(224, 6, 6, 0.993)}
+  50%{color : greenyellow}
+  75%{color: orange;}
+  100%{color : lime}
+}
+
+.click {
+  background-color: gray;
+  animation-name: animate-title;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#drop {
+  font-size: large;
+  font-weight: 700;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.rubiz-creation-div {
+  display: none;
+}
+
+#resume {
+  height: 600px;
+  width: 100%;
+}
+
+
+/* styles for larger screens */
+@media only screen and (min-width: 712px) {
+
+  .read-more {
+    top: 28%;
+    font-size: 90%;
+  }
+
+
+  #profile-pic {
+    width: 58%;
+    height: 260px;
+    border-radius: 60px;
+    margin-left: 19%;
+  }
+ 
+  .pic {
+  height: 450px;
+ }
+ 
+  .clickme {
+    width: 55%;
+    padding: 2%;
+    height: 65px;
+    background-color: blue;
+    border-radius: 25px;
+  }
+  
+  .h1 {
+    font-size: 10px;
+  }
+
+  #resume {
+    height: 660px;
+    width: 100%;
+  }
+
+  .close {
+    position: absolute;
+    z-index: 5;
+    left: 0%;
+    backdrop-filter: blur(22px);
+  }
+  
+  .resume {
+    height: 100%;
+    width: 100%;
+    background-image: url('Resume.pdf.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .cv {
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    display: none;
+    width: 50%;
+  }
+  
+  .clickNow {
+    width: 100%;
+    border-radius: 25px;
+    background-color: rgb(190, 182, 182);
+    color: linear-gradient(to right, red , rgba(69, 69, 76, 0.671));;
+    border: 1px black solid;
+    padding-left: 15%;
+    padding-top: 5%;
+    height: 100%;
+  }
+
+
+  body {
+    background-color: rgb(22, 21, 21);
+  }
+  .nav {
+    position:sticky;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(to right, red , rgba(69, 69, 76, 0.671));
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .tab_nav {
+    display: block;
+    width: 59%;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 0px;
+  }
+
+  .rubiz-creation-div {
+    display: block;
+    height: 150px;
+    width: 25%;   
+  }
+
+  .rubiz-creation-logo {
+    background-image: url('RC.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100%;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .img- {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+}
+/* style for large screen */
+@media only screen and (min-width: 822px) {
+  .tab_nav {
+    display: block;
+    width: 39%;
+  }
+
+  .read-more {
+    top: 19%;
+    font-size: 150%;
+  }
+}
